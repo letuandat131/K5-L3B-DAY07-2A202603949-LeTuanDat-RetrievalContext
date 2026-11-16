@@ -1,0 +1,16 @@
+{
+  "mode": "baseline_dense",
+  "provider": "vertex_gemini",
+  "split": "test",
+  "model": "gemini-2.5-flash",
+  "n": 30,
+  "answered": 4,
+  "abstained": 26,
+  "errors": 0,
+  "llm_usage": {
+    "prompt_tokens": 236755,
+    "completion_tokens": 9034,
+    "calls": 279
+  },
+  "wall_seconds": 34515.18
+}

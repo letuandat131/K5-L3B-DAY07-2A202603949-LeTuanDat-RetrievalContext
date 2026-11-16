@@ -1,0 +1,534 @@
+[
+  {
+    "query_id": "D01",
+    "category": "table",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_chars": 524,
+    "context_ids": [
+      "txt-p036-02-c75ce38e"
+    ],
+    "visual_images": [
+      "data/crops/page_036.png"
+    ],
+    "elapsed_ms": 48.65,
+    "top_hits": [
+      {
+        "id": "txt-p045-01-866c4cfc",
+        "page": 45,
+        "type": "text",
+        "score": 31.4457
+      },
+      {
+        "id": "txt-p044-02-05b6e79e",
+        "page": 44,
+        "type": "text",
+        "score": 29.9303
+      },
+      {
+        "id": "txt-p036-02-c75ce38e",
+        "page": 36,
+        "type": "text",
+        "score": 27.7723
+      }
+    ]
+  },
+  {
+    "query_id": "D02",
+    "category": "table",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 679,
+    "context_ids": [
+      "txt-p059-02-058b7cd0"
+    ],
+    "visual_images": [
+      "data/crops/page_059.png"
+    ],
+    "elapsed_ms": 7.06,
+    "top_hits": [
+      {
+        "id": "txt-p059-02-058b7cd0",
+        "page": 59,
+        "type": "text",
+        "score": 41.5111
+      },
+      {
+        "id": "txt-p059-01-d140c700",
+        "page": 59,
+        "type": "text",
+        "score": 39.6385
+      },
+      {
+        "id": "tbl-p059-01-cf48a076",
+        "page": 59,
+        "type": "table",
+        "score": 35.4351
+      }
+    ]
+  },
+  {
+    "query_id": "D03",
+    "category": "table",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 725,
+    "context_ids": [
+      "txt-p082-01-8106c349"
+    ],
+    "visual_images": [
+      "data/crops/page_082.png"
+    ],
+    "elapsed_ms": 6.36,
+    "top_hits": [
+      {
+        "id": "txt-p082-01-8106c349",
+        "page": 82,
+        "type": "text",
+        "score": 44.3541
+      },
+      {
+        "id": "tbl-p082-01-c2249635",
+        "page": 82,
+        "type": "table",
+        "score": 29.0863
+      },
+      {
+        "id": "txt-p080-03-9a48f8b1",
+        "page": 80,
+        "type": "text",
+        "score": 25.8782
+      }
+    ]
+  },
+  {
+    "query_id": "D04",
+    "category": "diagram_image",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_chars": 768,
+    "context_ids": [
+      "txt-p088-04-61de3a3e"
+    ],
+    "visual_images": [
+      "data/crops/page_088.png"
+    ],
+    "elapsed_ms": 8.22,
+    "top_hits": [
+      {
+        "id": "txt-p039-02-cb0588b2",
+        "page": 39,
+        "type": "text",
+        "score": 44.3377
+      },
+      {
+        "id": "txt-p088-04-61de3a3e",
+        "page": 88,
+        "type": "text",
+        "score": 42.8374
+      },
+      {
+        "id": "txt-p052-02-84c7e9c8",
+        "page": 52,
+        "type": "text",
+        "score": 35.3599
+      }
+    ]
+  },
+  {
+    "query_id": "D05",
+    "category": "diagram_image",
+    "filter_used": null,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 667,
+    "context_ids": [
+      "txt-p114-04-2ca3c00c"
+    ],
+    "visual_images": [
+      "data/crops/page_114.png"
+    ],
+    "elapsed_ms": 6.11,
+    "top_hits": [
+      {
+        "id": "vis-p115-43-2782f5c0",
+        "page": 115,
+        "type": "visual",
+        "score": 47.8478
+      },
+      {
+        "id": "txt-p115-01-a853d414",
+        "page": 115,
+        "type": "text",
+        "score": 40.7695
+      },
+      {
+        "id": "txt-p114-04-2ca3c00c",
+        "page": 114,
+        "type": "text",
+        "score": 38.5719
+      }
+    ]
+  },
+  {
+    "query_id": "D06",
+    "category": "diagram_image",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 761,
+    "context_ids": [
+      "txt-p045-05-253f988d"
+    ],
+    "visual_images": [
+      "data/crops/page_045.png"
+    ],
+    "elapsed_ms": 6.6,
+    "top_hits": [
+      {
+        "id": "txt-p045-05-253f988d",
+        "page": 45,
+        "type": "text",
+        "score": 36.7137
+      },
+      {
+        "id": "txt-p092-01-a1d63692",
+        "page": 92,
+        "type": "text",
+        "score": 32.6468
+      },
+      {
+        "id": "txt-p127-01-e2fa47e0",
+        "page": 127,
+        "type": "text",
+        "score": 32.5768
+      }
+    ]
+  },
+  {
+    "query_id": "D07",
+    "category": "chart",
+    "filter_used": null,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_chars": 478,
+    "context_ids": [
+      "txt-p040-01-a0b09432"
+    ],
+    "visual_images": [
+      "data/crops/page_040.png"
+    ],
+    "elapsed_ms": 6.78,
+    "top_hits": [
+      {
+        "id": "vis-p040-07-2a77349f",
+        "page": 40,
+        "type": "visual",
+        "score": 56.7293
+      },
+      {
+        "id": "txt-p040-01-a0b09432",
+        "page": 40,
+        "type": "text",
+        "score": 54.139
+      },
+      {
+        "id": "txt-p058-04-794dc70c",
+        "page": 58,
+        "type": "text",
+        "score": 35.9333
+      }
+    ]
+  },
+  {
+    "query_id": "D08",
+    "category": "chart",
+    "filter_used": null,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 0,
+    "context_ids": [],
+    "visual_images": [],
+    "elapsed_ms": 6.6,
+    "top_hits": [
+      {
+        "id": "vis-p127-52-d0dfead8",
+        "page": 127,
+        "type": "visual",
+        "score": 52.4913
+      },
+      {
+        "id": "txt-p127-03-77128797",
+        "page": 127,
+        "type": "text",
+        "score": 51.522
+      },
+      {
+        "id": "txt-p127-01-e2fa47e0",
+        "page": 127,
+        "type": "text",
+        "score": 49.9116
+      }
+    ]
+  },
+  {
+    "query_id": "D09",
+    "category": "chart",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 0,
+    "context_ids": [],
+    "visual_images": [],
+    "elapsed_ms": 5.67,
+    "top_hits": [
+      {
+        "id": "txt-p223-04-60384c7f",
+        "page": 223,
+        "type": "text",
+        "score": 83.5168
+      },
+      {
+        "id": "txt-p223-02-b11e6d1e",
+        "page": 223,
+        "type": "text",
+        "score": 61.9541
+      },
+      {
+        "id": "vis-p223-98-9c39fdac",
+        "page": 223,
+        "type": "visual",
+        "score": 57.9242
+      }
+    ]
+  },
+  {
+    "query_id": "D10",
+    "category": "multi_hop",
+    "filter_used": null,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 392,
+    "context_ids": [
+      "tbl-p039-01-deec9ad5"
+    ],
+    "visual_images": [
+      "data/crops/page_039.png"
+    ],
+    "elapsed_ms": 9.89,
+    "top_hits": [
+      {
+        "id": "vis-p039-06-2b53c67d",
+        "page": 39,
+        "type": "visual",
+        "score": 35.5326
+      },
+      {
+        "id": "tbl-p039-01-deec9ad5",
+        "page": 39,
+        "type": "table",
+        "score": 32.1515
+      },
+      {
+        "id": "txt-p039-01-1e565a86",
+        "page": 39,
+        "type": "text",
+        "score": 31.3389
+      }
+    ]
+  },
+  {
+    "query_id": "D11",
+    "category": "multi_hop",
+    "filter_used": null,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 686,
+    "context_ids": [
+      "txt-p178-03-ca24be9b"
+    ],
+    "visual_images": [
+      "data/crops/page_178.png"
+    ],
+    "elapsed_ms": 9.33,
+    "top_hits": [
+      {
+        "id": "vis-p173-75-8a40d746",
+        "page": 173,
+        "type": "visual",
+        "score": 47.3715
+      },
+      {
+        "id": "txt-p178-03-ca24be9b",
+        "page": 178,
+        "type": "text",
+        "score": 45.5598
+      },
+      {
+        "id": "txt-p171-06-dbf32f15",
+        "page": 171,
+        "type": "text",
+        "score": 44.7071
+      }
+    ]
+  },
+  {
+    "query_id": "D12",
+    "category": "multi_hop",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "context_chars": 405,
+    "context_ids": [
+      "txt-p254-06-9cf06cfc"
+    ],
+    "visual_images": [
+      "data/crops/page_254.png"
+    ],
+    "elapsed_ms": 7.49,
+    "top_hits": [
+      {
+        "id": "txt-p254-06-9cf06cfc",
+        "page": 254,
+        "type": "text",
+        "score": 66.9904
+      },
+      {
+        "id": "txt-p256-01-ee0fba66",
+        "page": 256,
+        "type": "text",
+        "score": 55.2749
+      },
+      {
+        "id": "vis-p256-107-5d3c9542",
+        "page": 256,
+        "type": "visual",
+        "score": 55.1372
+      }
+    ]
+  },
+  {
+    "query_id": "D13",
+    "category": "text",
+    "filter_used": null,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "context_chars": 452,
+    "context_ids": [
+      "txt-p087-01-11a04e06"
+    ],
+    "visual_images": [
+      "data/crops/page_087.png"
+    ],
+    "elapsed_ms": 5.12,
+    "top_hits": [
+      {
+        "id": "txt-p036-03-dbe48b46",
+        "page": 36,
+        "type": "text",
+        "score": 27.2524
+      },
+      {
+        "id": "vis-p076-23-4f6e4163",
+        "page": 76,
+        "type": "visual",
+        "score": 23.3608
+      },
+      {
+        "id": "txt-p087-01-11a04e06",
+        "page": 87,
+        "type": "text",
+        "score": 23.0958
+      }
+    ]
+  },
+  {
+    "query_id": "D14",
+    "category": "text",
+    "filter_used": null,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_chars": 521,
+    "context_ids": [
+      "txt-p171-03-02a3c1a7"
+    ],
+    "visual_images": [
+      "data/crops/page_171.png"
+    ],
+    "elapsed_ms": 7.52,
+    "top_hits": [
+      {
+        "id": "txt-p171-03-02a3c1a7",
+        "page": 171,
+        "type": "text",
+        "score": 60.1169
+      },
+      {
+        "id": "txt-p171-04-598d2a16",
+        "page": 171,
+        "type": "text",
+        "score": 48.5936
+      },
+      {
+        "id": "txt-p171-05-d89e5ff0",
+        "page": 171,
+        "type": "text",
+        "score": 31.7386
+      }
+    ]
+  },
+  {
+    "query_id": "D15",
+    "category": "text",
+    "filter_used": null,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "context_chars": 622,
+    "context_ids": [
+      "txt-p265-03-a376de1d"
+    ],
+    "visual_images": [
+      "data/crops/page_265.png"
+    ],
+    "elapsed_ms": 7.98,
+    "top_hits": [
+      {
+        "id": "txt-p265-03-a376de1d",
+        "page": 265,
+        "type": "text",
+        "score": 88.8817
+      },
+      {
+        "id": "txt-p107-02-0cd3b239",
+        "page": 107,
+        "type": "text",
+        "score": 42.2886
+      },
+      {
+        "id": "txt-p111-03-3e2fe253",
+        "page": 111,
+        "type": "text",
+        "score": 30.2071
+      }
+    ]
+  }
+]

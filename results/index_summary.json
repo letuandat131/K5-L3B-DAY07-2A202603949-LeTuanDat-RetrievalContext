@@ -1,0 +1,24 @@
+{
+  "indexed_content_pages": 228,
+  "physical_pages": 276,
+  "category_counts": {
+    "front_matter": 32,
+    "content": 228,
+    "references": 7,
+    "empty": 6,
+    "back_matter": 3
+  },
+  "chunk_count": 1360,
+  "chunks_by_type": {
+    "text": 1218,
+    "table": 32,
+    "visual": 110
+  },
+  "qdrant_points": 1360,
+  "embedding_usage": {
+    "computed_texts": 351,
+    "cache_hits": 1009,
+    "inference_seconds": 16.217821600000207
+  },
+  "wall_seconds": 187.94
+}

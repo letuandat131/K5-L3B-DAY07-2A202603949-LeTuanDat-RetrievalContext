@@ -1,0 +1,779 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table O.1, what are the shares of global GDP (%) for Lower-middle-income economies and High-income economies in 2022?",
+    "expected_answer": "Lower-middle-income: 8.3%; High-income: 60.8%.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 36,
+        "region": "Table O.1",
+        "evidence": "Lower-middle-income | 40.3 | 8.3 | 55.4 | 15.7"
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table O.3 (The 3i strategy), how do the Energy policy recommendations differ between Low-income countries (1i) and Upper-middle-income countries (3i)?",
+    "expected_answer": "Low-income (1i): increase investment in access/grid networks and reform regulatory frameworks for private investment. Upper-middle-income (3i): lower the cost of capital for low-carbon energy and increase multilateral finance for long-term investments.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 59,
+        "region": "Table O.3",
+        "evidence": "Lower the cost of capital for low-carbon energy"
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1 (continued), compare Korea, Rep. and the United States on Technology index and Researchers per million inhabitants.",
+    "expected_answer": "Korea, Rep.: Technology index 92.5 and 8,483.2 researchers per million inhabitants. United States: Technology index 100.0 and 4,340.9 researchers per million inhabitants.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 82,
+        "region": "Table S.1 continued",
+        "evidence": "8,483.2"
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the Figure O.4 schematic (1i, 2i, 3i transitions), how do the curves for Capital and Productivity change as proximity to the frontier increases?",
+    "expected_answer": "Capital starts high in 1i and slopes downward, while Productivity starts low/flat and rises steeply through 3i, intersecting and overtaking Capital during the transition.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 39,
+        "region": "Figure O.4",
+        "evidence": "Figure O.4"
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In Figure P2.1 (Rebalancing Creation, Preservation, and Destruction), how do the circle sizes change from the left diagram to the right diagram?",
+    "expected_answer": "On the left, Preservation is oversized while Destruction is tiny; on the right, Preservation shrinks and Destruction expands so all three forces are balanced.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 115,
+        "region": "Figure P2.1",
+        "evidence": "Figure P2.1"
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the scanned contract image in Figure 2.5 panel a, which two companies are parties to the Technical Collaboration Agreement, and what must NEC furnish under Section 4(a)?",
+    "expected_answer": "Nippon Electroic Co., Ltd. (printed spelling in the archival document) and Samsung Electron Devices Co., Ltd.; NEC must furnish one transparent copy of each drawing, specification, and other technical document within scope.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 92,
+        "region": "Figure 2.5a",
+        "evidence": "Figure 2.5"
+      }
+    ]
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure O.5, what is the y-axis unit, what are the three horizontal thresholds, and in roughly which periods did Korea, Rep. and Poland cross the HIC threshold?",
+    "expected_answer": "Y-axis: GNI per capita (constant 2015 US$). Thresholds: LMIC, UMIC, HIC. Korea, Rep. crossed the HIC threshold around 1995, while Poland crossed it around 2018-2019.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 40,
+        "region": "Figure O.5",
+        "evidence": "Figure O.5"
+      }
+    ]
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 4.8 panel b (Share of small firms over time), how does India's share at firm age 26+ years compare with that of the United States?",
+    "expected_answer": "Both start at 100% (age 0-5), but India declines gradually to ~77% at age 26+, whereas the United States drops steeply to ~27%.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 127,
+        "region": "Figure 4.8b",
+        "evidence": "Figure 4.8"
+      }
+    ]
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 8.1 (Enrollment and Completion rates), how do MICs that transitioned to HICs compare to MICs' current average in upper-secondary completion rate?",
+    "expected_answer": "Transitioned countries rose steadily from ~70% at -15 years to ~84% at +5 years after transition, remaining consistently above the ~59% current average for MICs.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 223,
+        "region": "Figure 8.1b",
+        "evidence": "Figure 8.1"
+      }
+    ]
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining the Atlas thresholds on page 36 with Table O.2 on page 39, what 2022 GNI per capita range defines lower-middle-income countries and which strategies are Higher priority for them?",
+    "expected_answer": "US$1,136 to US$4,465; Higher priority on Investment and Infusion, and Lower priority on Innovation.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 36,
+        "region": "Table O.1 note",
+        "evidence": "US$1,136 and US$4,465"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 39,
+        "region": "Table O.2",
+        "evidence": "Lower-middle-income"
+      }
+    ]
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining pages 171, 173, and 175, how many online low-carbon job postings appeared in 2022, what share were in middle-income countries, and what was global clean energy financing in 2022?",
+    "expected_answer": "3.3 million new online low-carbon job openings in 2022 (under 2% of online jobs), one-third in middle-income countries, and US$1,110 billion (over US$1 trillion) in global clean energy financing.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 171,
+        "region": "p171 prose",
+        "evidence": "3.3 million"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 173,
+        "region": "Map 6.1",
+        "evidence": "Map 6.1"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 175,
+        "region": "Figure 6.3c",
+        "evidence": "Figure 6.3"
+      }
+    ]
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Using Figure 9.1 (p255) and Figure 9.2 (p256), what are the solar PV learning rates in China, Germany, and the US, and which Technology type and complexity cell do solar PV modules occupy?",
+    "expected_answer": "Learning rates: China 32.3%, Germany 20.2%, United States 26.4%. Solar PV modules belong to Type 1 (Simple, Standardized / Mass-produced products).",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 255,
+        "region": "Figure 9.1",
+        "evidence": "Figure 9.1"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 256,
+        "region": "Figure 9.2",
+        "evidence": "Figure 9.2"
+      }
+    ]
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Why do factor-accumulation growth strategies worsen over time, and at roughly what relative income level does growth systematically slow down?",
+    "expected_answer": "Because the marginal productivity of capital declines; growth systematically slows around 11 percent of US GDP per capita (about US$8,000).",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 36,
+        "region": "p36 prose",
+        "evidence": "11 percent of US GDP per capita"
+      }
+    ]
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "By how much did the IEA revise its 2023-2024 renewable capacity forecast upward after the war relative to December 2021, and by what percentage could the US IRA raise renewable penetration by 2030?",
+    "expected_answer": "IEA raised its 2023-2024 forecast by 38 percent; the US Inflation Reduction Act could raise renewable penetration by about 13 percent by 2030.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 171,
+        "region": "p171 prose",
+        "evidence": "38 percent"
+      }
+    ]
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Under Network for Greening the Financial System projections, what is the probability of exceeding the remaining <2°C 2050 carbon budget if middle-income countries keep current policies even if high-income countries hit 2050 net zero?",
+    "expected_answer": "83 percent chance.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 265,
+        "region": "p265 prose",
+        "evidence": "83 percent chance"
+      }
+    ]
+  },
+  {
+    "id": "D16",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What exact World Bank FY2026 GNI per capita Atlas thresholds (in 2026 US$) define upper-middle-income economies?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "WDR 2024 only reports 2022 classification thresholds (p36/p63); FY2026 thresholds do not appear in the 276-page PDF.",
+    "gold": []
+  },
+  {
+    "id": "D17",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "How much EU Carbon Border Adjustment Mechanism (CBAM) tariff revenue did European authorities collect from middle-income steel exporters in 2024?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'cbam' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  },
+  {
+    "id": "D18",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What productivity gains from ChatGPT and large language model adoption in middle-income service firms are measured in Chapter 5?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'chatgpt' and 'large language model' across all 276 pages.",
+    "gold": []
+  },
+  {
+    "id": "T01",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table 2.1 (page 86), which two growth strategies are Higher priority for Lower-middle-income countries, and which strategy shifts from Lower priority to Higher priority in Upper-middle-income countries?",
+    "expected_answer": "For Lower-middle-income countries, Investment and Infusion are Higher priority (Innovation is Lower priority). In Upper-middle-income countries, Innovation shifts from Lower priority to Higher priority (alongside Investment and Infusion).",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 86,
+        "region": "Table 2.1",
+        "evidence": "Table 2.1"
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table O.3 (The 3i strategy, p59), how do the Talent policy recommendations differ between Low-income countries (1i) and Upper-middle-income countries (3i)?",
+    "expected_answer": "Low-income (1i): invest in human capital by broadening foundational skills and improving learning outcomes. Upper-middle-income (3i): strengthen industry-academia links domestically, expand programs to connect with diaspora in advanced economies, and enhance economic and political freedoms.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 59,
+        "region": "Table O.3",
+        "evidence": "Strengthen industry-academia links domestically"
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table 4.1 (p135), what are the PROS and CONS of market power for the Innovation development outcome?",
+    "expected_answer": "PROS: Some firms acquire market power because they innovate and push the frontier. CONS: There are fewer incentives to innovate, and firm entry is low.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 135,
+        "region": "Table 4.1",
+        "evidence": "Some firms acquire market power because they innovate"
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1 (page 81), compare Brazil and Mexico on Economic Complexity Index and Energy stability (% of firms identifying electricity as a major constraint).",
+    "expected_answer": "Brazil has an Economic Complexity Index of -0.2 and Energy stability of 46.00%, whereas Mexico has an Economic Complexity Index of 1.1 and Energy stability of 46.70%.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 81,
+        "region": "Table S.1",
+        "evidence": "Brazil"
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1 (page 81), which UMIC economy has the highest Energy intensity (exajoules per trillion US$), and what is its Upper-secondary completion rate (% of relevant age group)?",
+    "expected_answer": "Kazakhstan has the highest UMIC Energy intensity at 14.15 exajoules per trillion US$, with an Upper-secondary completion rate of 98.00%.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 81,
+        "region": "Table S.1",
+        "evidence": "Kazakhstan"
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1 continued (page 82), compare Japan and France on Technology index and Energy intensity (exajoules per trillion US$).",
+    "expected_answer": "Japan has a Technology index of 50.1 and Energy intensity of 4.22, while France has a Technology index of 11.5 and Energy intensity of 3.01.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 82,
+        "region": "Table S.1 continued",
+        "evidence": "5,476.3"
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the Figure 4.2 three-panel diagram (page 119), what summary statement appears at the bottom of panels a (Schumpeter), b (Aghion and Howitt), and c (Akcigit and Kerr)?",
+    "expected_answer": "Panel a (Schumpeter): incumbents can collude (to block competition). Panel b (Aghion and Howitt): entrants create value and displace incumbents. Panel c (Akcigit and Kerr): incumbents and entrants add value.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 119,
+        "region": "Figure 4.2",
+        "evidence": "Figure 4.2"
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the Figure 4.3 quality ladder schematic (page 120), what do the IN arrow (at Firm 5) and dashed OUT arrow (at Firm 4) represent, and what does the vertical curly bracket on the left measure?",
+    "expected_answer": "IN represents a new firm entering the market (adding a rung on top of the ladder at Firm 5), OUT represents an incumbent firm exiting the market (Firm 4), and the vertical bracket measures 'Productivity or quality of production'.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 120,
+        "region": "Figure 4.3",
+        "evidence": "Figure 4.3"
+      }
+    ]
+  },
+  {
+    "id": "T09",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In Figure 4.4 (page 121, Akcigit and Kerr's approach), what two bar components form 'Level of product quality' on the y-axis, and how do External R&D vs Internal R&D arrows operate across Firm 1 and Firm 2?",
+    "expected_answer": "Bars stack 'Existing quality' below 'New entrant (contribution of the latest innovation)'. External R&D jumps horizontally across product lines (expanding into or displacing another product line), while Internal R&D curves upward to upgrade an existing product line's quality.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 121,
+        "region": "Figure 4.4",
+        "evidence": "Figure 4.4"
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the Figure 9.6 four-quadrant dual-hurdle diagram (page 261), contrast Quadrant I and Quadrant IV on domestic vs foreign hurdles, and what financing recommendation accompanies Quadrant II?",
+    "expected_answer": "Quadrant I clears both domestic and foreign hurdles (economically efficient for foreign capital). Quadrant IV fails domestic hurdles and clears foreign hurdles ('Governments should stop expropriating savings and let foreign savings finance infrastructure'). Quadrant II clears domestic hurdles and fails foreign hurdles, recommending 'There may be a need for concessional finance'.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 261,
+        "region": "Figure 9.6",
+        "evidence": "Figure 9.6"
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In Map 6.1 (page 173), list the four Income group colors/categories on the map legend and identify the two world regions with large dark-gray clusters plus the Asian region showing a large orange-red cluster.",
+    "expected_answer": "Legend Income groups: High-income (dark gray), Upper-middle-income (orange-red), Lower-middle-income (teal), Low-income (light olive/green). Large gray clusters sit in Western Europe and North America (United States), while a large orange-red cluster covers eastern China / East Asia.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 173,
+        "region": "Map 6.1",
+        "evidence": "Map 6.1"
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure O.1 (page 35), what is the y-axis indicator, roughly what percentage did Korea, Rep. reach by 2022, and below roughly what threshold did the 'Middle-income countries' line remain from 1970 to 2022?",
+    "expected_answer": "Y-axis: 'Share of US GNI per capita (%)'. Korea, Rep. climbed from ~9% in 1970 to roughly 50% by 2022, whereas the average for 'Middle-income countries' remained below 10% (under 10%, staying roughly between 3% and 9%).",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 35,
+        "region": "Figure O.1",
+        "evidence": "Figure O.1"
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 2.1 (page 87), how does the contribution to GDP per capita growth shift between 'Physical capital per worker' and 'Total factor productivity' from Low-income to High-income countries?",
+    "expected_answer": "In Low-income (~46% vs ~28%) and Lower-middle-income (~43% vs ~41%) groups, Physical capital per worker exceeds Total factor productivity; in Upper-middle-income (~35% vs ~48%) and High-income (~32% vs ~52%) groups, Total factor productivity overtakes Physical capital per worker.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 87,
+        "region": "Figure 2.1",
+        "evidence": "Figure 2.1"
+      }
+    ]
+  },
+  {
+    "id": "T14",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure B3.1.1 (page 102, transition from 7% aging to 14% aged), how many years did France, United States, and High-income take compared with Middle-income, China, and Korea, Rep.?",
+    "expected_answer": "France took 115 years, United States 69 years, and High-income 61 years; in contrast, Middle-income countries take 26 years, China 25 years, and Korea, Rep. 18 years.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 102,
+        "region": "Figure B3.1.1",
+        "evidence": "Figure B3.1.1"
+      }
+    ]
+  },
+  {
+    "id": "T15",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 9.4 (page 258), which country ranks first on both 'Green complexity index' (panel a) and 'Green complexity potential index' (panel b), and which countries rank second in panel a vs panel b?",
+    "expected_answer": "China ranks first in both panel a (~3.15) and panel b (~4.0). Bulgaria ranks second in panel a (Green complexity index), whereas Türkiye ranks second in panel b (Green complexity potential index).",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 258,
+        "region": "Figure 9.4",
+        "evidence": "Figure 9.4"
+      }
+    ]
+  },
+  {
+    "id": "T16",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure 9.12 (page 267, 1800-2022 stacked area chart), what is the y-axis unit, which three fossil fuels dominate the 2022 stack above Traditional biomass, and roughly what total consumption level was reached in 2022?",
+    "expected_answer": "Y-axis: 'Global primary energy consumption, by source (TWh)'. Above Traditional biomass, the three largest fossil fuel layers are Coal, Oil, and Natural gas, pushing total consumption toward ~175,000-180,000 TWh in 2022.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 267,
+        "region": "Figure 9.12",
+        "evidence": "Figure 9.12"
+      }
+    ]
+  },
+  {
+    "id": "T17",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining Spotlight (page 79) and Table S.1 (page 81), roughly what percentage of productivity growth in developing countries does efficient resource allocation account for, and what are Colombia's Productivity-constraining distortions and Energy stability values?",
+    "expected_answer": "Efficient factor allocation accounts for about 25 percent of productivity growth in developing countries (p79). In Table S.1 (p81), Colombia records 0.37 for Productivity-constraining distortions and 50.10% for Energy stability.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 79,
+        "region": "Spotlight Enterprise",
+        "evidence": "25 percent of productivity growth"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 81,
+        "region": "Table S.1",
+        "evidence": "Colombia"
+      }
+    ]
+  },
+  {
+    "id": "T18",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining Box 2.2 (page 94) and Table S.1 (page 81), compare Estonia, Poland, and Bulgaria's 1996-2021 annual productivity growth rates, and report Bulgaria's 2023 GNI per capita and Researchers per million inhabitants from Table S.1.",
+    "expected_answer": "Annual productivity growth (1996-2021): Estonia 3.8%, Poland 2.6%, Bulgaria 1.4% (p94). In Table S.1 (p81), Bulgaria has 2023 GNI per capita of US$14,460 and 2,354.6 Researchers per million inhabitants.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 94,
+        "region": "Box 2.2",
+        "evidence": "3.8 percent"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 81,
+        "region": "Table S.1",
+        "evidence": "Bulgaria"
+      }
+    ]
+  },
+  {
+    "id": "T19",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining pages 199-200 and Table S.1 (page 81), what share of coal-fueled capacity do SOEs dominate vs private-sector share of renewable capacity, what share of global energy vs fossil-fuel power investment do SOEs supply, and what is South Africa's Energy stability in Table S.1?",
+    "expected_answer": "SOEs account for 84% of coal power capacity while the private sector owns ~80% of renewable energy capacity (p199); SOEs provide 60% of energy finance and 50% of global fossil-fuel power investment (p200). South Africa's Energy stability in Table S.1 (p81) is 19.40%.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 199,
+        "region": "p199 prose",
+        "evidence": "84 percent"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 200,
+        "region": "p200 prose",
+        "evidence": "60 percent of energy investment"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 81,
+        "region": "Table S.1",
+        "evidence": "South Africa"
+      }
+    ]
+  },
+  {
+    "id": "T20",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining page 254 and Box 9.1 (page 270), how many wind-chain factories operate in Izmir (Türkiye) and what share of their output is exported, and how does green-hydrogen electrolyzer cost per kilowatt in China compare with elsewhere?",
+    "expected_answer": "In Izmir, Türkiye, 13 factories produce wind-chain intermediates and export 80% of production (primarily to Europe, p254). Box 9.1 (p270) reports electrolyzer system costs range from less than US$500/kW in China to up to US$2,000/kW elsewhere.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 254,
+        "region": "p254 prose",
+        "evidence": "Thirteen factories"
+      },
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 270,
+        "region": "Box 9.1",
+        "evidence": "less than US$500 per kilowatt"
+      }
+    ]
+  },
+  {
+    "id": "T21",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to page 153 (Migration), what was China's average rural-to-urban intraprovincial migration cost under hukou in 2000, and by what percentages did migration costs decline between 2000 and 2005 after hukou reform?",
+    "expected_answer": "In 2000, the average intraprovincial rural-to-urban moving cost was equivalent to reducing real income by a factor of nearly 3; between 2000 and 2005 following hukou reform, migration costs fell by 18% on average and about 40% for interprovincial moves.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 153,
+        "region": "p153 prose",
+        "evidence": "factor of nearly 3"
+      }
+    ]
+  },
+  {
+    "id": "T22",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to page 196, how much additional profit did Tyco earn between 1995 and 2004 after shaping SC connector standards, and how did local retail entry regulations in Italy affect price margins and incumbent productivity in the early 2000s?",
+    "expected_answer": "Tyco earned an additional US$50-$100 million in profits (1995-2004). In Italy, local retail entry regulations raised price margins by 8 percent and reduced incumbent firms' productivity by 3 percent.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 196,
+        "region": "p196 prose",
+        "evidence": "US$50–$100 million"
+      }
+    ]
+  },
+  {
+    "id": "T23",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to page 234, what examples of good management practices distinguish small vs large firms, and what share of the TFP gap between the United States and other countries does managerial quality explain?",
+    "expected_answer": "In small firms, good practices include keeping separate household and business accounts and monitoring inventories; in larger firms, rewarding good employees, setting production targets, deciding product varieties, and monitoring performance. Managerial quality accounts on average for about one-third of the TFP gap with the United States.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 234,
+        "region": "p234 prose",
+        "evidence": "about one-third of the gap in TFP"
+      }
+    ]
+  },
+  {
+    "id": "T24",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to Box 9.1 (page 270), how low can optimistic renewable hydrogen production cost get (per kilogram), and what dollar range of wealth losses is estimated for stranded natural gas reserves?",
+    "expected_answer": "Renewable hydrogen production costs can reach as low as US$3 per kilogram under optimistic assumptions in best locations; stranded gas reserves could generate wealth losses estimated between US$1.7 trillion and US$3.8 trillion.",
+    "gold": [
+      {
+        "source_id": "worldbank-wdr-2024",
+        "page": 270,
+        "region": "Box 9.1",
+        "evidence": "US$1.7 trillion to US$3.8"
+      }
+    ]
+  },
+  {
+    "id": "T25",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What annual electric-vehicle battery recycling targets for 2025-2030 are mandated under the EU Battery Passport rules in Chapter 9?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'battery passport' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  },
+  {
+    "id": "T26",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "According to Chapter 5, by what percentage did GitHub Copilot and generative AI coding assistants raise software developer output in middle-income outsourcing firms?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'copilot' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  },
+  {
+    "id": "T27",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What annual dividend payout ratios are reported in Chapter 7 for sovereign wealth funds in Malaysia and Kazakhstan?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'sovereign wealth fund' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  },
+  {
+    "id": "T28",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "According to Chapter 3, what daily cross-border settlement limits were tested for central bank digital currency (CBDC) pilots in 2024?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'central bank digital currency' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  },
+  {
+    "id": "T29",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "How many gigawatts of commercial nuclear fusion power capacity does Box 9.1 project for middle-income grids by 2040?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'nuclear fusion' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  },
+  {
+    "id": "T30",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What total subsidy amounts in billions of US dollars did the US CHIPS Act allocate to middle-income semiconductor fabrication plants in 2025?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'chips act' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  }
+]

@@ -1,0 +1,475 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table O.1, what are the shares of global GDP (%) for Lower-middle-income economies and High-income economies in 2022?",
+    "expected_answer": "Lower-middle-income: 8.3%; High-income: 60.8%.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 36, "region": "Table O.1", "evidence": "Lower-middle-income | 40.3 | 8.3 | 55.4 | 15.7"}]
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table O.3 (The 3i strategy), how do the Energy policy recommendations differ between Low-income countries (1i) and Upper-middle-income countries (3i)?",
+    "expected_answer": "Low-income (1i): increase investment in access/grid networks and reform regulatory frameworks for private investment. Upper-middle-income (3i): lower the cost of capital for low-carbon energy and increase multilateral finance for long-term investments.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 59, "region": "Table O.3", "evidence": "Lower the cost of capital for low-carbon energy"}]
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1 (continued), compare Korea, Rep. and the United States on Technology index and Researchers per million inhabitants.",
+    "expected_answer": "Korea, Rep.: Technology index 92.5 and 8,483.2 researchers per million inhabitants. United States: Technology index 100.0 and 4,340.9 researchers per million inhabitants.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 82, "region": "Table S.1 continued", "evidence": "8,483.2"}]
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the Figure O.4 schematic (1i, 2i, 3i transitions), how do the curves for Capital and Productivity change as proximity to the frontier increases?",
+    "expected_answer": "Capital starts high in 1i and slopes downward, while Productivity starts low/flat and rises steeply through 3i, intersecting and overtaking Capital during the transition.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 39, "region": "Figure O.4", "evidence": "Figure O.4"}]
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In Figure P2.1 (Rebalancing Creation, Preservation, and Destruction), how do the circle sizes change from the left diagram to the right diagram?",
+    "expected_answer": "On the left, Preservation is oversized while Destruction is tiny; on the right, Preservation shrinks and Destruction expands so all three forces are balanced.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 115, "region": "Figure P2.1", "evidence": "Figure P2.1"}]
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the scanned contract image in Figure 2.5 panel a, which two companies are parties to the Technical Collaboration Agreement, and what must NEC furnish under Section 4(a)?",
+    "expected_answer": "Nippon Electroic Co., Ltd. (printed spelling in the archival document) and Samsung Electron Devices Co., Ltd.; NEC must furnish one transparent copy of each drawing, specification, and other technical document within scope.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 92, "region": "Figure 2.5a", "evidence": "Figure 2.5"}]
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure O.5, what is the y-axis unit, what are the three horizontal thresholds, and in roughly which periods did Korea, Rep. and Poland cross the HIC threshold?",
+    "expected_answer": "Y-axis: GNI per capita (constant 2015 US$). Thresholds: LMIC, UMIC, HIC. Korea, Rep. crossed the HIC threshold around 1995, while Poland crossed it around 2018-2019.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 40, "region": "Figure O.5", "evidence": "Figure O.5"}]
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 4.8 panel b (Share of small firms over time), how does India's share at firm age 26+ years compare with that of the United States?",
+    "expected_answer": "Both start at 100% (age 0-5), but India declines gradually to ~77% at age 26+, whereas the United States drops steeply to ~27%.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 127, "region": "Figure 4.8b", "evidence": "Figure 4.8"}]
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 8.1 (Enrollment and Completion rates), how do MICs that transitioned to HICs compare to MICs' current average in upper-secondary completion rate?",
+    "expected_answer": "Transitioned countries rose steadily from ~70% at -15 years to ~84% at +5 years after transition, remaining consistently above the ~59% current average for MICs.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 223, "region": "Figure 8.1b", "evidence": "Figure 8.1"}]
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining the Atlas thresholds on page 36 with Table O.2 on page 39, what 2022 GNI per capita range defines lower-middle-income countries and which strategies are Higher priority for them?",
+    "expected_answer": "US$1,136 to US$4,465; Higher priority on Investment and Infusion, and Lower priority on Innovation.",
+    "gold": [
+      {"source_id": "worldbank-wdr-2024", "page": 36, "region": "Table O.1 note", "evidence": "US$1,136 and US$4,465"},
+      {"source_id": "worldbank-wdr-2024", "page": 39, "region": "Table O.2", "evidence": "Lower-middle-income"}
+    ]
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining pages 171, 173, and 175, how many online low-carbon job postings appeared in 2022, what share were in middle-income countries, and what was global clean energy financing in 2022?",
+    "expected_answer": "3.3 million new online low-carbon job openings in 2022 (under 2% of online jobs), one-third in middle-income countries, and US$1,110 billion (over US$1 trillion) in global clean energy financing.",
+    "gold": [
+      {"source_id": "worldbank-wdr-2024", "page": 171, "region": "p171 prose", "evidence": "3.3 million"},
+      {"source_id": "worldbank-wdr-2024", "page": 173, "region": "Map 6.1", "evidence": "Map 6.1"},
+      {"source_id": "worldbank-wdr-2024", "page": 175, "region": "Figure 6.3c", "evidence": "Figure 6.3"}
+    ]
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Using Figure 9.1 (p255) and Figure 9.2 (p256), what are the solar PV learning rates in China, Germany, and the US, and which Technology type and complexity cell do solar PV modules occupy?",
+    "expected_answer": "Learning rates: China 32.3%, Germany 20.2%, United States 26.4%. Solar PV modules belong to Type 1 (Simple, Standardized / Mass-produced products).",
+    "gold": [
+      {"source_id": "worldbank-wdr-2024", "page": 255, "region": "Figure 9.1", "evidence": "Figure 9.1"},
+      {"source_id": "worldbank-wdr-2024", "page": 256, "region": "Figure 9.2", "evidence": "Figure 9.2"}
+    ]
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Why do factor-accumulation growth strategies worsen over time, and at roughly what relative income level does growth systematically slow down?",
+    "expected_answer": "Because the marginal productivity of capital declines; growth systematically slows around 11 percent of US GDP per capita (about US$8,000).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 36, "region": "p36 prose", "evidence": "11 percent of US GDP per capita"}]
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "By how much did the IEA revise its 2023-2024 renewable capacity forecast upward after the war relative to December 2021, and by what percentage could the US IRA raise renewable penetration by 2030?",
+    "expected_answer": "IEA raised its 2023-2024 forecast by 38 percent; the US Inflation Reduction Act could raise renewable penetration by about 13 percent by 2030.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 171, "region": "p171 prose", "evidence": "38 percent"}]
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Under Network for Greening the Financial System projections, what is the probability of exceeding the remaining <2°C 2050 carbon budget if middle-income countries keep current policies even if high-income countries hit 2050 net zero?",
+    "expected_answer": "83 percent chance.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 265, "region": "p265 prose", "evidence": "83 percent chance"}]
+  },
+  {
+    "id": "D16",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What exact World Bank FY2026 GNI per capita Atlas thresholds (in 2026 US$) define upper-middle-income economies?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "WDR 2024 only reports 2022 classification thresholds (p36/p63); FY2026 thresholds do not appear in the 276-page PDF.",
+    "gold": []
+  },
+  {
+    "id": "D17",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "How much EU Carbon Border Adjustment Mechanism (CBAM) tariff revenue did European authorities collect from middle-income steel exporters in 2024?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'cbam' across all 276 pages of WDR_2024.pdf.",
+    "gold": []
+  },
+  {
+    "id": "D18",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What productivity gains from ChatGPT and large language model adoption in middle-income service firms are measured in Chapter 5?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'chatgpt' and 'large language model' across all 276 pages.",
+    "gold": []
+  },
+  {
+    "id": "T01",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table P1.1 (2022 indicators), what percentage of people in extreme poverty globally and what percentage of global CO2 emissions are in Upper-middle-income countries?",
+    "expected_answer": "7.1% of extreme poverty globally and 48.6% of global carbon dioxide emissions.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 63, "region": "Table P1.1", "evidence": "Upper-middle-income | 35.1 | 30.3 | 7.1 | 48.6"}]
+  },
+  {
+    "id": "T02",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table O.2, which income group is assigned Higher priority for Investment and Infusion, and Lower priority for Innovation?",
+    "expected_answer": "Lower-middle-income.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 39, "region": "Table O.2", "evidence": "Table O.2"}]
+  },
+  {
+    "id": "T03",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1, compare Viet Nam and Indonesia on GNI per capita (current US$, 2023) and Researchers per million inhabitants.",
+    "expected_answer": "Viet Nam: US$4,180 GNI per capita and 772.4 researchers/million. Indonesia: US$4,870 GNI per capita and 336.2 researchers/million (Viet Nam has lower GNI but more than double the researcher density).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 81, "region": "Table S.1", "evidence": "Viet Nam"}]
+  },
+  {
+    "id": "T04",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1 (page 81), which UMIC economy has the highest Technology index, and what is its Energy stability (% of firms identifying electricity as a major constraint)?",
+    "expected_answer": "China, with Technology index 13.1 and Energy stability 1.80%.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 81, "region": "Table S.1", "evidence": "China"}]
+  },
+  {
+    "id": "T05",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table S.1 (continued), which HIC country records 0.00 for Productivity-constraining distortions, and what is its Carbon intensity of energy consumption (Gt/exajoules)?",
+    "expected_answer": "United States (0.00 distortions; 0.06 Gt/exajoules carbon intensity).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 82, "region": "Table S.1 continued", "evidence": "United States"}]
+  },
+  {
+    "id": "T06",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table 4.1, what are the PROS and CONS of market power for the Consumer welfare development outcome?",
+    "expected_answer": "PROS: More efficient structures can lead to lower costs and lower prices. CONS: It is easier to form cartels when fewer players are in the market.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 135, "region": "Table 4.1", "evidence": "Consumer welfare"}]
+  },
+  {
+    "id": "T07",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In Figure O.8 (Three views of creative destruction), how do panels a (Schumpeter), b (Aghion and Howitt), and c (Akcigit and Kerr) differ regarding entrants and incumbents at the technology frontier?",
+    "expected_answer": "Panel a (Energy/Schumpeter): incumbents can collude on the right alongside entrants; Panel b (Talent/Aghion & Howitt): entrants push from the left to create value and displace incumbents; Panel c (Enterprise/Akcigit & Kerr): incumbents and entrants appear on both/supporting sides and both add value.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 44, "region": "Figure O.8", "evidence": "Figure O.8"}]
+  },
+  {
+    "id": "T08",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the Figure 7.2 schematic diagram, which three bottom pillars feed upward into Contestability, and what outcome sits at the top?",
+    "expected_answer": "Institutions, Incentives, and Interventions feed upward into Contestability, which leads to Disciplining incumbency at the top.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 195, "region": "Figure 7.2", "evidence": "Figure 7.2"}]
+  },
+  {
+    "id": "T09",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In the Figure 9.2 3x3 matrix (Design complexity vs Need for customization), classify rooftop solar PV, electric vehicles, and BECCS by Technology type (Type 1, 2, or 3) and grid position.",
+    "expected_answer": "Electric vehicles: Type 2 (Design-intensive, Standardized / Mass-produced complex products); Rooftop solar PV: Type 2 (Simple, Mass-customized products); BECCS: Type 3 (Complex, Customized / Complex product systems).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 256, "region": "Figure 9.2", "evidence": "Figure 9.2"}]
+  },
+  {
+    "id": "T10",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In Map 6.2 (Electricity transmission networks in 2023), what do the red lines denote and which two world regions do Inset map A and Inset map B enlarge?",
+    "expected_answer": "Red lines show power transmission lines. Inset map A enlarges Europe, and Inset map B enlarges East/South Asia (including eastern China and northern India).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 182, "region": "Map 6.2", "evidence": "Map 6.2"}]
+  },
+  {
+    "id": "T11",
+    "split": "test",
+    "category": "diagram_image",
+    "answerable": true,
+    "question": "In Map 6.3 (China 2019, panels a and b), what are the maximum percentage values on the two color legends, and which named regions hold the highest low-carbon vs fossil fuel job concentrations?",
+    "expected_answer": "Panel a legend max is 7.90% (low-carbon jobs concentrated in East coast cities around Fujian, Guangdong, Beijing, Shanghai, plus smaller cities like Haidong and Ganzi). Panel b legend max is 3.75% (fossil fuel jobs concentrated in Shanxi province and Western Guizhou).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 186, "region": "Map 6.3", "evidence": "Map 6.3"}]
+  },
+  {
+    "id": "T12",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure O.7, what is the y-axis indicator and how did Korea, Rep.'s trajectory compare with Brazil's from 1980 to 2019?",
+    "expected_answer": "Labor productivity (GDP per person employed relative to a US worker, %). In 1980 Brazil started higher (~44% vs Korea ~22%), they crossed around 1988 (~34%), then Korea climbed above 60% (~63%) while Brazil sagged toward ~25%.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 43, "region": "Figure O.7", "evidence": "Figure O.7"}]
+  },
+  {
+    "id": "T13",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "From Figure 5.7, list the exact share (%) of women age 25+ with at least upper-secondary education across LICs, LMICs, UMICs, and HICs.",
+    "expected_answer": "LICs: 6.4%, LMICs: 27.0%, UMICs: 52.5%, HICs: 69.3%.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 156, "region": "Figure 5.7", "evidence": "Figure 5.7"}]
+  },
+  {
+    "id": "T14",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 6.1 (log scale relative to 1985 = 100), which two series declined most sharply by 2020 and which series fell the least?",
+    "expected_answer": "Computers and peripheral equipment and Solar photovoltaics declined most steeply (down to near ~2 on the index), whereas Software declined the least (remaining near ~50).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 171, "region": "Figure 6.1", "evidence": "Figure 6.1"}]
+  },
+  {
+    "id": "T15",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure 6.3 panel c (Growth of clean energy financing), what were the global investment values (in US$ billions) for 2004, 2020, 2021, and 2022?",
+    "expected_answer": "2004: US$36 billion; 2020: US$627 billion; 2021: US$853 billion; 2022: US$1,110 billion.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 175, "region": "Figure 6.3c", "evidence": "Figure 6.3"}]
+  },
+  {
+    "id": "T16",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure 9.3 (panels a Extraction and b Processing), which economy holds the largest global share in Extraction vs Processing for Cobalt and for Lithium?",
+    "expected_answer": "Cobalt: Congo, Dem. Rep. leads Extraction (~74%), while China leads Processing (~74%). Lithium: Australia leads Extraction (~47%), while China leads Processing (~65%).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 257, "region": "Figure 9.3", "evidence": "Figure 9.3"}]
+  },
+  {
+    "id": "T17",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining Table P1.1 (p63), Figure 1.1 text (p67), and Table S.1 (p81), what is Viet Nam's 2023 GNI per capita and current income group, and by what year does Viet Nam plan to reach high-income status?",
+    "expected_answer": "Viet Nam has 2023 GNI per capita of US$4,180 (LMIC: US$1,136-US$4,465) and plans to transition to high-income status (US$13,846+) by 2045.",
+    "gold": [
+      {"source_id": "worldbank-wdr-2024", "page": 63, "region": "Table P1.1 note", "evidence": "US$1,136 and US$4,465"},
+      {"source_id": "worldbank-wdr-2024", "page": 67, "region": "p67 prose", "evidence": "transition to high-income status by 2045"},
+      {"source_id": "worldbank-wdr-2024", "page": 81, "region": "Table S.1", "evidence": "Viet Nam"}
+    ]
+  },
+  {
+    "id": "T18",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining Table O.3 (p59) and Figure 9.2 (p256), what Energy policies should Upper-middle-income countries adopt under 3i, and which two granular technology types in Figure 9.2 can middle-income countries supply for rapid global diffusion?",
+    "expected_answer": "Upper-middle-income countries should lower the cost of capital for low-carbon energy and increase multilateral finance for long-term investments; middle-income countries can become suppliers of Type 1 (e.g., solar PV modules, LEDs) and Type 2 (e.g., EVs, wind turbines) technologies.",
+    "gold": [
+      {"source_id": "worldbank-wdr-2024", "page": 59, "region": "Table O.3", "evidence": "Lower the cost of capital for low-carbon energy"},
+      {"source_id": "worldbank-wdr-2024", "page": 256, "region": "Figure 9.2", "evidence": "Figure 9.2"}
+    ]
+  },
+  {
+    "id": "T19",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining Figure 7.1 (p194) and Figure 7.2 (p195), how do Italian market leaders behave regarding local politicians vs patents per 100 workers, and which three policy levers in Figure 7.2 create Contestability to discipline them?",
+    "expected_answer": "In Italy (Figure 7.1), top market leaders employ more local politicians per 100 workers (~2.7) while producing the fewest patents per 100 workers (~24); Figure 7.2 shows Institutions, Incentives, and Interventions create Contestability to discipline incumbency.",
+    "gold": [
+      {"source_id": "worldbank-wdr-2024", "page": 194, "region": "Figure 7.1", "evidence": "Figure 7.1"},
+      {"source_id": "worldbank-wdr-2024", "page": 195, "region": "Figure 7.2", "evidence": "Figure 7.2"}
+    ]
+  },
+  {
+    "id": "T20",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Combining Table S.1 (p81) and p265, how much higher was middle-income energy intensity than high-income countries in 2022, and compare India vs Brazil on both Energy intensity (exajoules/trillion US$) and LEED certification adoption rate?",
+    "expected_answer": "Middle-income energy intensity was 2.5 times higher than high-income countries in 2022. India had energy intensity 10.77 and 1% LEED adoption; Brazil had lower energy intensity 6.98 and >20% LEED adoption.",
+    "gold": [
+      {"source_id": "worldbank-wdr-2024", "page": 81, "region": "Table S.1", "evidence": "India"},
+      {"source_id": "worldbank-wdr-2024", "page": 265, "region": "p265 prose", "evidence": "2.5 times higher"}
+    ]
+  },
+  {
+    "id": "T21",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to p135, under what three conditions does firm market power become problematic?",
+    "expected_answer": "1) Market power is not the result of innovation; 2) Market power is sustained over time by government interventions protecting a firm or granting specific advantages; 3) Market power is sustained over time by illegal strategic behavior such as excluding rivals or colluding.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 135, "region": "p135 prose", "evidence": "Market power becomes problematic under the following conditions"}]
+  },
+  {
+    "id": "T22",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to Curtis, O'Kane, and Park (2023) cited on p186, what share of workers leaving a carbon-intensive job transitioned into a green job in 2021, and where do most green-job workers come from?",
+    "expected_answer": "Only 0.7 percent of workers transitioning out of carbon-intensive jobs found a green job in 2021; the vast majority of green-job hires come from a wide range of other industries and occupations (such as sales managers and software developers).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 186, "region": "p186 prose", "evidence": "only 0.7 percent"}]
+  },
+  {
+    "id": "T23",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to p255, how much higher would 10-year solar capacity costs be in the US and Germany under domestic-only supply, and what was China's 2023 solar PV module price compared with the US price?",
+    "expected_answer": "US$24 billion higher in the United States and US$7 billion higher in Germany. China's 2023 solar PV module price dropped to US$0.15 per watt—over 60% lower than the US price (written as US$0.40 cents per watt in source text).",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 255, "region": "p255 prose", "evidence": "US$0.15 per watt"}]
+  },
+  {
+    "id": "T24",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "According to p265, why can't low-carbon renewables provide 100 percent of electricity supply alone, and how much less energy do LEED-certified firms use than noncertified firms?",
+    "expected_answer": "Because renewable energy cannot be generated consistently throughout the day while electricity supply must balance demand at all times; firms in LEED-certified buildings use 8 percent less energy than those in noncertified buildings.",
+    "gold": [{"source_id": "worldbank-wdr-2024", "page": 265, "region": "p265 prose", "evidence": "8 percent less energy"}]
+  },
+  {
+    "id": "T25",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What provincial GNI per capita and energy intensity values are reported in Table S.1 for Hanoi and Ho Chi Minh City?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'hanoi' and 'ho chi minh' across all 276 pages; Table S.1 only provides national-level data for Viet Nam.",
+    "gold": []
+  },
+  {
+    "id": "T26",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "According to Eurostat data in Chapter 8, what is the 2026 forecast for youth unemployment across EU-27 member states?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'eurostat' and '2026 forecast' across all 276 pages.",
+    "gold": []
+  },
+  {
+    "id": "T27",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What regulatory limits does Chapter 7 recommend for Bitcoin mining electricity usage and cryptocurrency exchanges in middle-income economies?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'bitcoin' and 'cryptocurrency' across all 276 pages.",
+    "gold": []
+  },
+  {
+    "id": "T28",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What specific 2025 ASEAN tariff schedules for imported electric vehicles are tabulated in Chapter 4?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'asean tariff' across all 276 pages.",
+    "gold": []
+  },
+  {
+    "id": "T29",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Which Nordic countries' 2030 quantum computing public R&D targets are compared in Table O.3?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'nordic' and 'quantum' across all 276 pages; Table O.3 covers general 1i/2i/3i enterprise/talent/energy policies.",
+    "gold": []
+  },
+  {
+    "id": "T30",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What total semiconductor subsidy budgets in billions of US dollars for 2025-2030 are reported in Chapter 9?",
+    "expected_answer": "Không đủ bằng chứng trong tài liệu.",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Verified 0 occurrences of 'semiconductor subsidy' across all 276 pages.",
+    "gold": []
+  }
+]

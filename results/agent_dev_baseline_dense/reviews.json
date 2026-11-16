@@ -1,0 +1,20 @@
+[
+  {"query_id": "D01", "answer_grade": 2, "citation_support": [true], "notes": "Exact GDP shares 8.3% and 60.8% from Table O.1."},
+  {"query_id": "D02", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D03", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D04", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D05", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D06", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D07", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D08", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D09", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D10", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D11", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D12", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D13", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D14", "answer_grade": 0, "citation_support": [], "notes": "False abstention under dense-only top_k=3 budget=800."},
+  {"query_id": "D15", "answer_grade": 2, "citation_support": [true], "notes": "Exact 83 percent probability from p265."},
+  {"query_id": "D16", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on FY2026 threshold."},
+  {"query_id": "D17", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on CBAM."},
+  {"query_id": "D18", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on ChatGPT/LLM."}
+]

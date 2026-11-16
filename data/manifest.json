@@ -1,0 +1,19 @@
+{
+  "source_id": "worldbank-wdr-2024",
+  "title": "World Development Report 2024: The Middle-Income Trap",
+  "source_url": "https://openknowledge.worldbank.org/bitstreams/862729db-69a7-48a8-ba91-df8fe8d8745b/download",
+  "handle_url": "https://openknowledge.worldbank.org/handle/10986/41919",
+  "license": "CC BY 3.0 IGO (Creative Commons Attribution 3.0 IGO)",
+  "sha256": "dc69d858e364a1534a57c49fbb72237f69d88165a63933a98f01f3c20262aded",
+  "physical_pages": 276,
+  "indexed_content_pages": 228,
+  "category_counts": {
+    "front_matter": 32,
+    "content": 228,
+    "references": 7,
+    "empty": 6,
+    "back_matter": 3
+  },
+  "extracted_tables": 32,
+  "extracted_visuals": 117
+}

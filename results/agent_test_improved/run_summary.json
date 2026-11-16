@@ -1,0 +1,16 @@
+{
+  "mode": "improved",
+  "provider": "vertex_gemini",
+  "split": "test",
+  "model": "gemini-2.5-flash",
+  "n": 30,
+  "answered": 24,
+  "abstained": 6,
+  "errors": 0,
+  "llm_usage": {
+    "prompt_tokens": 239099,
+    "completion_tokens": 7582,
+    "calls": 106
+  },
+  "wall_seconds": 592.38
+}

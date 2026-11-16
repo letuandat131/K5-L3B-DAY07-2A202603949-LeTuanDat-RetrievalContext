@@ -5,6 +5,11 @@ __pycache__/
 .env.*
 !.env.example
 .codex-log/
+.cache/
+.pytest_cache/
+storage/
+data/raw/
+data/crops/
 
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/

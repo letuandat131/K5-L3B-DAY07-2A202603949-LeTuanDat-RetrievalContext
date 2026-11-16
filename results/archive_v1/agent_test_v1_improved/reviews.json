@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "T01",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Table P1.1 (p63): Upper-middle-income 7.1% extreme poverty and 48.6% global CO2 emissions verified."
+  },
+  {
+    "query_id": "T02",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Table O.2 (p39): Lower-middle-income group matches exact priority row."
+  },
+  {
+    "query_id": "T03",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Table S.1 (p81): Viet Nam 4,180 / 772.4 vs Indonesia 4,870 / 336.2 verified."
+  },
+  {
+    "query_id": "T04",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Table S.1 (p81): China UMIC with highest Technology index 13.1 and Energy stability 1.80 verified."
+  },
+  {
+    "query_id": "T05",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Table S.1 continued (p82): United States 0.00 distortions and 0.06 Gt/exajoules carbon intensity verified."
+  },
+  {
+    "query_id": "T06",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Table 4.1 (p135): Consumer welfare PROS and CONS quoted verbatim."
+  },
+  {
+    "query_id": "T07",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true, true, true],
+    "notes": "Figure O.8 (p44) + text (p43, p46, p48) accurately contrasts Schumpeter, Aghion & Howitt, and Akcigit & Kerr."
+  },
+  {
+    "query_id": "T08",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Called inspect_image(195); exact three pillars (Institutions, Incentives, Interventions) and top outcome (Disciplining incumbency)."
+  },
+  {
+    "query_id": "T09",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true],
+    "notes": "Figure 9.2 (p256): Accurately maps Rooftop solar PV (Mass-customized products, Type 2), EVs (Mass-produced complex products, Type 2), BECCS (Complex product systems, Type 3)."
+  },
+  {
+    "query_id": "T10",
+    "answer_grade": 1,
+    "advanced_pass": false,
+    "citation_support": [false],
+    "notes": "ADVANCED FAIL: Red lines ('Power transmission lines') and Inset map B (China/East Asia) correct, but Inset map A enlarges Eastern Europe/Black Sea/Ukraine/Belarus/western Russia/Caucasus (with only northern Turkey on bottom edge), NOT 'Turkey and parts of the Middle East/Western Asia' per page_182.png."
+  },
+  {
+    "query_id": "T11",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Called inspect_image(186); exact 7.90% and 3.75% legend maxes plus exact annotated callout regions."
+  },
+  {
+    "query_id": "T12",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true],
+    "notes": "Called inspect_image(43); exact y-axis label and Korea (~20%->over 60%) vs Brazil (~40%->~25%) trajectories."
+  },
+  {
+    "query_id": "T13",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Figure 5.7 (p156): Exact 6.4%, 27.0%, 52.5%, 69.3% across LICs, LMICs, UMICs, HICs."
+  },
+  {
+    "query_id": "T14",
+    "answer_grade": 1,
+    "advanced_pass": false,
+    "citation_support": [false],
+    "notes": "ADVANCED FAIL: Called inspect_image(171) and identified two steepest declines correctly, but misread top brown curve as Communication equipment instead of Software (~50 in 2020)."
+  },
+  {
+    "query_id": "T15",
+    "answer_grade": 1,
+    "advanced_pass": false,
+    "citation_support": [false],
+    "notes": "ADVANCED FAIL: Did NOT call inspect_image(175); relied on scrambled bar-label text and returned shifted values 2004=82 (actual 36) and 2020=471 (actual 627), while 2021=853 and 2022=1,110 matched."
+  },
+  {
+    "query_id": "T16",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true, true],
+    "notes": "Figure 9.3 (p256-257): Cobalt Extraction (DRC) / Processing (China); Lithium Extraction (Australia) / Processing (China) verified."
+  },
+  {
+    "query_id": "T17",
+    "answer_grade": 0,
+    "advanced_pass": false,
+    "citation_support": [],
+    "notes": "ADVANCED FAIL (False abstention): Failed to retrieve p67 'transition to high-income status by 2045' within search budget and abstained."
+  },
+  {
+    "query_id": "T18",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true, true],
+    "notes": "Combines Table O.3 (p59 UMIC 3i energy policies) with p255/Figure 9.2 (p256 granular type 1 & type 2 technologies)."
+  },
+  {
+    "query_id": "T19",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true, true, true],
+    "notes": "Combines Figure 7.1 (p193-194: market leaders hire more local politicians and patent less) with Figure 7.2 (p195: Institutions, Incentives, Interventions -> Contestability)."
+  },
+  {
+    "query_id": "T20",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true, true],
+    "notes": "Combines p265 (2.5x energy intensity; >20% Brazil vs <1% India LEED) with Table S.1 p81 (India 10.77 vs Brazil 6.98)."
+  },
+  {
+    "query_id": "T21",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true, true],
+    "notes": "Exact three conditions for problematic market power from p135."
+  },
+  {
+    "query_id": "T22",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Exact 0.7 percent and diverse origin occupations from p186 Curtis, O'Kane, and Park (2023)."
+  },
+  {
+    "query_id": "T23",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true],
+    "notes": "Exact US$24B (US), US$7B (Germany), US$0.15/W China vs US$0.40 US (>60% lower) from p255."
+  },
+  {
+    "query_id": "T24",
+    "answer_grade": 2,
+    "advanced_pass": true,
+    "citation_support": [true, true],
+    "notes": "Exact supply-demand balancing intermittency reason and 8 percent less energy in LEED buildings from p265."
+  },
+  {
+    "query_id": "T25",
+    "abstention_correct": true,
+    "advanced_pass": true,
+    "citation_support": [],
+    "notes": "Correct abstention: Hanoi and Ho Chi Minh City are not reported in Table S.1."
+  },
+  {
+    "query_id": "T26",
+    "abstention_correct": true,
+    "advanced_pass": true,
+    "citation_support": [],
+    "notes": "Correct abstention: Eurostat 2026 forecast is absent from WDR 2024."
+  },
+  {
+    "query_id": "T27",
+    "abstention_correct": true,
+    "advanced_pass": true,
+    "citation_support": [],
+    "notes": "Correct abstention: Bitcoin / cryptocurrency limits are absent from WDR 2024."
+  },
+  {
+    "query_id": "T28",
+    "abstention_correct": true,
+    "advanced_pass": true,
+    "citation_support": [],
+    "notes": "Correct abstention: 2025 ASEAN EV tariff schedules are absent from WDR 2024."
+  },
+  {
+    "query_id": "T29",
+    "abstention_correct": true,
+    "advanced_pass": true,
+    "citation_support": [],
+    "notes": "Correct abstention: Nordic 2030 quantum R&D targets are absent from Table O.3."
+  },
+  {
+    "query_id": "T30",
+    "abstention_correct": true,
+    "advanced_pass": true,
+    "citation_support": [],
+    "notes": "Correct abstention: 2025-2030 semiconductor subsidy budgets are absent from Chapter 9."
+  }
+]

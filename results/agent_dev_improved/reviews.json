@@ -1,0 +1,20 @@
+[
+  {"query_id": "D01", "answer_grade": 2, "citation_support": [true], "notes": "Exact 2022 GDP shares 8.3% and 60.8% from Table O.1."},
+  {"query_id": "D02", "answer_grade": 2, "citation_support": [true], "notes": "Accurately contrasts 1i vs 3i energy policies in Table O.3."},
+  {"query_id": "D03", "answer_grade": 2, "citation_support": [true], "notes": "Exact Technology index and researchers per million for Korea, Rep. and United States."},
+  {"query_id": "D04", "answer_grade": 2, "citation_support": [true], "notes": "Called inspect_image(39); Capital falls and Productivity rises."},
+  {"query_id": "D05", "answer_grade": 2, "citation_support": [true], "notes": "Called inspect_image(115); Creation/Preservation shrink to balanced sizes and Destruction expands."},
+  {"query_id": "D06", "answer_grade": 2, "citation_support": [true], "notes": "Called inspect_image(92); exact NIPPON ELECTROIC CO., LTD., SAMSUNG ELECTRON DEVICES CO., LTD., and Section 4(a)."},
+  {"query_id": "D07", "answer_grade": 2, "citation_support": [true], "notes": "Called inspect_image(40) at 2.2x; fixed Poland crossing period to 2018-2019 alongside Korea 1995-1996."},
+  {"query_id": "D08", "answer_grade": 1, "citation_support": [false], "notes": "Partial: qualitative comparison right, but visually underestimated ~70% (actual ~77%) and ~20% (actual ~27%) on Figure 4.8b."},
+  {"query_id": "D09", "answer_grade": 1, "citation_support": [false], "notes": "Partial: read ~80% for transitioned HICs right, but misread Panel a dashed ~45% line as Panel b current MIC completion average (~59%)."},
+  {"query_id": "D10", "answer_grade": 2, "citation_support": [true, true], "notes": "Exact US$1,136-US$4,465 and Investment+Infusion priority."},
+  {"query_id": "D11", "answer_grade": 2, "citation_support": [true, true, true], "notes": "All three claims cited cleanly to p171 (3.3M), p173 (one-third MICs), and p175 (US$1,110B)."},
+  {"query_id": "D12", "answer_grade": 2, "citation_support": [true, true], "notes": "Triggered visual_inspect_required_hint on p255; fixed Germany 20.2%, US 26.4%, China 32.3%, and Type 1 / Simple / Mass-produced products."},
+  {"query_id": "D13", "answer_grade": 2, "citation_support": [true, true, true, true], "notes": "Exact diminishing capital productivity and ~11% US GDP per capita (~US$8,000)."},
+  {"query_id": "D14", "answer_grade": 2, "citation_support": [true, true], "notes": "Exact 38% IEA upward revision and ~13% US IRA impact by 2030."},
+  {"query_id": "D15", "answer_grade": 2, "citation_support": [true], "notes": "Exact 83% chance from p265."},
+  {"query_id": "D16", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on FY2026 Atlas thresholds."},
+  {"query_id": "D17", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on CBAM tariff revenue."},
+  {"query_id": "D18", "abstention_correct": true, "citation_support": [], "notes": "Correct abstention on ChatGPT/LLM productivity metrics."}
+]

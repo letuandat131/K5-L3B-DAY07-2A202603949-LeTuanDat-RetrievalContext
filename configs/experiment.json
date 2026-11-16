@@ -1,0 +1,43 @@
+{
+  "corpus": {
+    "source_id": "worldbank-wdr-2024",
+    "title": "World Development Report 2024: The Middle-Income Trap",
+    "pdf_path": "data/raw/WDR_2024.pdf",
+    "source_url": "https://openknowledge.worldbank.org/bitstreams/862729db-69a7-48a8-ba91-df8fe8d8745b/download",
+    "handle_url": "https://openknowledge.worldbank.org/handle/10986/41919",
+    "license": "CC BY 3.0 IGO (Creative Commons Attribution 3.0 IGO)",
+    "sha256": ""
+  },
+  "model": {
+    "name": "Xenova/all-MiniLM-L6-v2",
+    "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+    "dimensions": 384,
+    "max_tokens": 256,
+    "batch_size": 32,
+    "threads": 2,
+    "pooling": "attention-mask mean, L2 normalization",
+    "license": "Apache-2.0",
+    "files": {
+      "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+      "onnx/model_quantized.onnx": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1"
+    }
+  },
+  "store": {
+    "backend": "Qdrant local",
+    "path": "storage/qdrant-wdr2024",
+    "collection": "wdr2024_chunks",
+    "metric": "cosine",
+    "search": "exact"
+  },
+  "chunking": {
+    "max_chars": 850,
+    "overlap": 0
+  },
+  "retrieval_strategies": [
+    "bm25",
+    "dense",
+    "hybrid_rrf",
+    "hybrid_rerank"
+  ],
+  "selection_policy": "On dev split: maximize Context Evidence Rate first, then Evidence Hit@3, then Hit@1, then lower cost/latency."
+}
